@@ -13,7 +13,8 @@ user-invocable: false
 agentic: false
 compatibility: "redux-saga-test-plan ^5.x, Jest or Vitest, redux-saga ^1.4.2"
 metadata:
-  author: anivar
+  author: Anivar Aravind
+  author_url: https://anivar.net
   version: 1.0.0
   tags: redux-saga, testing, redux-saga-test-plan, expectSaga, testSaga, jest, vitest, providers
 ---

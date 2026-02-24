@@ -1,5 +1,7 @@
 # Redux-Saga Testing
 
+Created by **[Anivar Aravind](https://anivar.net)**
+
 An AI agent skill for writing tests for Redux Sagas using redux-saga-test-plan. Works with Jest and Vitest.
 
 ## The Problem
@@ -64,9 +66,30 @@ npx skills add https://github.com/anivar/redux-saga-testing
     └── anti-patterns.md          # 12 common testing mistakes to avoid
 ```
 
-## Related
+## Ecosystem — Skills by [Anivar Aravind](https://anivar.net)
 
-- [redux-saga-skill](https://github.com/anivar/redux-saga-skill) — Full redux-saga best practices skill (includes this testing content plus 22 rules across effects, fork model, channels, RTK integration, and more)
+### Testing Skills
+| Skill | What it covers | Install |
+|-------|---------------|---------|
+| [jest-skill](https://github.com/anivar/jest-skill) | Jest best practices — mock design, async testing, matchers, timers, snapshots | `npx skills add anivar/jest-skill -g` |
+| [zod-testing](https://github.com/anivar/zod-testing) | Zod schema testing — safeParse, mock data, property-based | `npx skills add anivar/zod-testing -g` |
+| [msw-skill](https://github.com/anivar/msw-skill) | MSW 2.0 API mocking — handlers, responses, GraphQL | `npx skills add anivar/msw-skill -g` |
+
+### Library & Framework Skills
+| Skill | What it covers | Install |
+|-------|---------------|---------|
+| [zod-skill](https://github.com/anivar/zod-skill) | Zod v4 schema validation, parsing, error handling | `npx skills add anivar/zod-skill -g` |
+| [redux-saga-skill](https://github.com/anivar/redux-saga-skill) | Redux-Saga effects, fork model, channels, RTK | `npx skills add anivar/redux-saga-skill -g` |
+| [msw-skill](https://github.com/anivar/msw-skill) | MSW 2.0 handlers, responses, migration | `npx skills add anivar/msw-skill -g` |
+
+### Engineering Analysis
+| Skill | What it covers | Install |
+|-------|---------------|---------|
+| [contributor-codebase-analyzer](https://github.com/anivar/contributor-codebase-analyzer) | Code analysis, annual reviews, promotion readiness | `npx skills add anivar/contributor-codebase-analyzer -g` |
+
+## Author
+
+**[Anivar Aravind](https://anivar.net)** — Building AI agent skills for modern JavaScript/TypeScript development.
 
 ## License
 

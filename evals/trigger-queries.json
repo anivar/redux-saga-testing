@@ -1,0 +1,66 @@
+[
+  {
+    "query": "write tests for sagas/login.ts, we use redux-saga-test-plan",
+    "should_trigger": true
+  },
+  {
+    "query": "test that the checkout saga puts CHECKOUT_FAILURE when the api call throws",
+    "should_trigger": true
+  },
+  {
+    "query": "my expectSaga test times out with a warning about a saga still running",
+    "should_trigger": true
+  },
+  {
+    "query": "unit test the cancellation path of the polling saga",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I provide a value for select(getToken) in a saga test",
+    "should_trigger": true
+  },
+  {
+    "query": "test the saga together with the reducer and check the final state",
+    "should_trigger": true
+  },
+  {
+    "query": "testing a side effect in our redux-saga app with vitest, no test plan library installed",
+    "should_trigger": true
+  },
+  {
+    "query": "step through this generator saga by hand in jest",
+    "should_trigger": true
+  },
+  {
+    "query": "write the saga that fetches orders",
+    "should_trigger": false
+  },
+  {
+    "query": "test createAsyncThunk with jest",
+    "should_trigger": false
+  },
+  {
+    "query": "test the cart slice reducer",
+    "should_trigger": false
+  },
+  {
+    "query": "test the compensation steps of our temporal saga workflow",
+    "should_trigger": false
+  },
+  {
+    "query": "jest fake timers for a debounce",
+    "should_trigger": false
+  },
+  {
+    "query": "test the redux-observable epic with marble diagrams",
+    "should_trigger": false
+  },
+  {
+    "query": "test a python generator function with pytest",
+    "should_trigger": false
+  },
+  {
+    "query": "mock the API in our react component tests",
+    "should_trigger": false
+  }
+]

@@ -1,21 +1,18 @@
 ---
 name: redux-saga-testing
 description: >
-  Write tests for Redux Sagas using redux-saga-test-plan, runSaga, and
-  manual generator testing. Covers expectSaga (integration), testSaga
-  (unit), providers, partial matchers, reducer integration, error
-  simulation, and cancellation testing. Works with Jest and Vitest.
-  Triggers on: test files for sagas, redux-saga-test-plan imports,
-  mentions of "test saga", "saga test", "expectSaga", "testSaga",
-  or "redux-saga-test-plan".
+  Patterns for testing Redux Sagas in Jest or Vitest: redux-saga-test-plan with expectSaga
+  (integration) and testSaga (unit), runSaga, and stepping a generator by hand; providers, partial
+  matchers, reducer integration, error and cancellation paths. Use this skill whenever the user
+  writes or fixes a test for a saga, even if they only say "test this side effect" in a redux-saga
+  app. Triggers on: test files that import a saga, redux-saga-test-plan, expectSaga, testSaga,
+  runSaga, "saga test", "test saga".
 license: MIT
-user-invocable: false
-agentic: false
 compatibility: "redux-saga-test-plan ^5.x, Jest or Vitest, redux-saga ^1.4.2"
 metadata:
   author: Anivar Aravind
   author_url: https://anivar.net
-  version: 1.0.0
+  version: 1.0.1
   tags: redux-saga, testing, redux-saga-test-plan, expectSaga, testSaga, jest, vitest, providers
 ---
 
